@@ -24,34 +24,27 @@ public class User {
     public String getCity() {
         return city;
     }
-
     public void setCity(String city) {
         this.city = city;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public String getStatus() {
         return status;
     }
-
     public void setStatus(String status) {
         this.status = status;
     }
-
     public User(int id, String status, String city, String name) {
         this.id = id;
         this.status = status;
         this.city = city;
         this.name = name;
     }
-
     public User() {
     }
 
