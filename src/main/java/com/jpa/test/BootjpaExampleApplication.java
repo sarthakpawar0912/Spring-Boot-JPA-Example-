@@ -17,12 +17,10 @@ public class BootjpaExampleApplication {
 	context.getBean(UserRepository.class);
 
 	UserRepository userRepository= context.getBean(UserRepository.class);
-
 		User user=new User();
 		user.setName("Sarthak Pawar");
 		user.setCity("PCMC");
 		user.setStatus("I am just A programmer");
-
 		User user1 = userRepository.save(user);
 		System.out.println(user1);
 //	//	craete object of user
@@ -31,7 +29,6 @@ public class BootjpaExampleApplication {
 //		user.setCity("Pune");
 //		user.setStatus("I am just A programmer");
 //		System.out.println(user);
-
 		User user2=new User();
 		user2.setName("Niranjan Pawar");
 		user2.setCity("Salapur");
